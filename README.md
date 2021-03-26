@@ -8,7 +8,7 @@ This is a demo application which provides a real world representation of a REST 
  $ cd HelloShiftLeft
  $ mvn clean package
  ```
- 
+  
 ## Run
  ```sh
  $ java -jar target/hello-shiftleft-0.0.1.jar
