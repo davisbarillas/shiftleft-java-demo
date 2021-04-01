@@ -52,7 +52,7 @@ The [exploit.py](https://github.com/ShiftLeftSecurity/helloshiftleft/blob/master
 $ python2 exploit.py
 ```
 
-This returns the following sensitive data:
+This returns the following sensitive data: 
 
 ```
 Customer;Month;Volume
