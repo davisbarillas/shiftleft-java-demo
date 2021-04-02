@@ -60,7 +60,7 @@ Netflix;January;200,000
 Palo Alto;January;200,000
 ```
 
-### XSS 
+### XSS  
 
 A reflected XSS vulnerability exists in the application and can be triggered using the _hidden_ `/debug` endpoint as follows:
 
