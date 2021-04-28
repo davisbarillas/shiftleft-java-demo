@@ -22,10 +22,6 @@ jobs:
     - name: Download ShiftLeft CLI
       run: |
         curl https://cdn.shiftleft.io/download/sl > ${GITHUB_WORKSPACE}/sl && chmod a+rx ${GITHUB_WORKSPACE}/sl
-    - name: Extract branch name
-      shell: bash
-      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-      id: extract_branch
     - name: NextGen Static Analysis
       run: |
            ${GITHUB_WORKSPACE}/sl analyze --wait --app shiftleft-java-demo --tag branch=$"${{ github.head_ref || steps.extract_branch.outputs.branch }}" --java --cpg target/hello-shiftleft-0.0.1.jar
