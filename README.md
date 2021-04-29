@@ -17,7 +17,7 @@ This is a demo application which provides a real world representation of a REST 
 ## Exercise Vulnerabilites and Exposures
 Once the application starts, vulnerabilites and exposures in it can be tested with API access patterns described below and through example scripts provided in the [exploits](https://github.com/ShiftLeftSecurity/HelloShiftLeft/tree/master/exploits) directory. These are summarized below:  
 
-### Sensitive Data Leaks to Log
+### Sensitive Data Leaks to Log 
 
 | URL | Purpose |
 | --- | ------- |
