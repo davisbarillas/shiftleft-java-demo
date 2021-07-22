@@ -1,0 +1,5 @@
+ngsast:
+  - default:
+      policy: io.shiftleft/defaultWithDict
+      modify-findings:
+        - downgrade_sqli
