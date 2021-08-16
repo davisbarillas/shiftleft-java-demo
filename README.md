@@ -37,7 +37,7 @@ An RCE can be triggered through the `/search/user` endpoint by sending a `GET` H
 
 This creates a file `/tmp/hacked` with the content `3vilhax0r`
 
-### Arbritary File Write
+### Arbritary File Write 
 
 The [filewriteexploit.py](https://github.com/ShiftLeftSecurity/HelloShiftLeft/blob/master/exploits/filewriteexploit.py) script can be executed as follows to trigger the arbritary file writing through the `/saveSettings` endpoint:
 ```
