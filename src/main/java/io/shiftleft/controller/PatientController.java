@@ -28,7 +28,7 @@ public class PatientController {
    * Gets all customers.
    *
    * @return the customers
-   */
+   
   @RequestMapping(value = "/patients", method = RequestMethod.GET)
   public Iterable<Patient> getPatient() {
     Patient pat = patientRepository.findOne(1l);
@@ -39,3 +39,4 @@ public class PatientController {
   }
 
 }
+*/
